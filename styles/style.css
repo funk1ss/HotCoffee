@@ -1,0 +1,128 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+.Gray{
+    color: #718096;
+}
+
+/* Шапка */
+.hat{
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 0px;
+}
+.hat nav{
+    display: flex;
+}
+nav div{
+    margin: 0px 10px;
+}
+.search{
+    display: flex;
+}
+.search div{
+    margin: 0px 10px;
+}
+.search form input{
+    border-style: hidden;
+}
+/* Шапка */
+
+/* Блок1 */
+.makeBetterBackground{
+    background: #FBFBFB;
+}
+.CoffeeContent{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 346px;
+    font-size: 60px;
+    font-weight: 700px;
+    margin-left:20px;
+    position: relative;
+    padding: 20px 0px;
+}
+.CoffeeContent h2{
+    font-size: 30px;
+    color:#4A5568;
+    font-weight: 400;
+    padding-top: 10px;
+    
+}
+.CoffeeContent::after{
+    content: url(/img/coffee.png);
+    position: absolute;
+    left: 10px;
+    left: 167px;
+    top: 55px;
+}
+.makeBetterContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Блок1 */
+
+/* Блок2 */
+.cardContainer{
+    padding: 40px;
+}
+.secBlockContainer{
+    display: flex;
+    margin:40px 0px;
+}
+.cardContainer{
+    border: 1px solid #E2E2E2;
+}
+
+.cardTitle{
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 27px;
+}
+.inCardContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 27px;
+}
+/* Блок2 */
+
+/* Блок3 */
+.thBlockContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.thBlockContainer .cardContent{
+    box-shadow:0px 2px 0px 1px #E2E2E2;
+    padding: 17px;
+}
+.thBlockContainer .Card{
+    max-width: 297px;
+}
+.thBlockContainer .Card img{
+    max-width: 297px;
+}
+.cardContent .cardTitle{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+.cardContent .cardDesk{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+}
+.cardContent .cardFooter{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+/* Блок3 */
+
+/* Блок4 */
