@@ -193,5 +193,94 @@ nav div{
 .social div{
     margin-left: 30px;
 }
+.inFooterContainer{
+    display: flex;
+}
 /* Блок5 */
 
+/* Медиа-запросы */
+@media screen and (max-width: 1120px){
+    .container{
+        width: 600px;
+    }
+    .secBlockContainer{
+        display: flex;
+        margin: 40px 0px;
+        flex-direction: column-reverse;
+    }
+    .CoffeeContent{
+        font-size: 30px;
+    }
+    .secBlockContainer img{
+        width: 100%;
+    }
+    .thBlockContainer{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .CoffeeContent::after {
+        left: 50px;
+        top: 87px;
+    }
+    .BigCardContainer{
+        flex-direction: column-reverse;
+    }
+    .BigCardContainer img{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 980px){
+    .container{
+        width: 500px;
+    }
+    .makeBetterContent{
+        flex-direction: column-reverse;
+    }
+    .CoffeeContent::after{
+        left: 306px;
+        top: 0px;
+        right: 29px;
+    }
+    .search{
+        display: none;
+    }
+    .hat{
+        max-width: 499px;
+    }
+    .thBlockContainer .Card{
+        margin-top: 20px;
+    }
+    .BigCardText{
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 760px){
+    .container{
+        width: 300px;
+    }
+    .BigCardText{
+        padding: 0px;
+    }
+    .makeBetterContent img{
+        max-width: 300px;
+    }
+    .CoffeeContent::after{
+        left: 67px;
+        top: 68px;
+        right: 29px;
+    }
+    .inFooterContainer{
+        display: block;
+    }
+    .hat{
+        max-width: 499px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
